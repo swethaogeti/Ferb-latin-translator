@@ -7,6 +7,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0px;
+    background-position: bottom;
+
 }
 
 :root {
@@ -20,9 +22,10 @@ body {
     color: black ;
     text-align: center;
     font-size: x-large;
-    padding: 0.1px;
+    padding: 5px
 }
 .container{
+    
     width: 600px;
     text-align: center;
     margin: auto;
@@ -32,13 +35,13 @@ body {
 .container  .text-box {
     font-family:'Tinos', serif; ;
     color: black;
-   
+   text-align: center;
     height: 30px;
-    max-width: 500px;
+    max-width: 800px;
     width: 600px;
     padding: 30px;
     opacity: 80%;
-    margin: 15px;
+    margin: auto;
     border: 1px solid rgb(221, 72, 72);
     border-radius:20px;
     font-size: 20px;
@@ -55,7 +58,7 @@ body {
     font-weight: 500px;
     font-family: 'Tinos', serif;
     border-radius: 15px;
-    border-radius: px;
+    
     padding: 15px;
     opacity: 70%;
 }
@@ -80,7 +83,7 @@ footer .footer-about {
 }
 footer p {
     text-align: center;
-    max-width: 700px;
+    width: 700px;
     margin: auto;
 
     font-family: 'Tinos', serif;
