@@ -3,11 +3,8 @@
 body {
     font-family: 'Tinos', serif;
     text-align: center;
-   
-    background-size: cover;
-    background-attachment: fixed;
     margin: 0px;
-    background-position: bottom;
+  
 
 }
 
@@ -32,7 +29,7 @@ body {
 
 }
 
-.container  .text-box {
+/* .container  .text-box {
     font-family:'Tinos', serif; ;
     color: black;
    text-align: center;
@@ -48,8 +45,22 @@ body {
     font-weight: 400;
     background-color: white
 
+} */
+.container .text-box {
+    display: block;
+    height: 30px;
+    max-width: 80%;
+    width: 500px;
+    padding: 2rem;
+    margin: 1rem;
+    border: 2px solid var(--black);
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    background-color: rgb(252, 252, 252);
+    opacity: 50%;
 }
-.container #btn-translate {
+
+/* .container #btn-translate {
 
     background-color: var(--primary-color);
     color: black;
@@ -61,8 +72,22 @@ body {
     
     padding: 15px;
     opacity: 70%;
+} */
+
+.container #btn-translate {
+
+    background-color: var(--primary-color);
+    color: var(--black);
+    border: 2px solid black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    ;
+    border-radius: 1rem;
+    padding: 1rem;
 }
-footer {
+
+/* footer {
 
     position: fixed;
     bottom: 0;
@@ -88,4 +113,30 @@ footer p {
 
     font-family: 'Tinos', serif;
     font-weight: 500;
+} */
+
+.footer {
+   
+    background-color:
+        black;
+        opacity: 80%;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--black);
+
+}
+
+.footer .footer-about {
+    font-weight: 900;
+    font-size: x-large;
+    margin-bottom: 1rem;
+    color:white
+}
+
+.footer p {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    color:white
 }
