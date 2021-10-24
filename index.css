@@ -4,24 +4,23 @@ body {
     font-family: 'Tinos', serif;
     text-align: center;
     margin: 0px;
-  background-color: #b58af1;
-
+    background-color: #b58af1;
 }
 
 :root {
     --primary-color: #e8f0ea;
-
 }
 
 .navigation {
     background-color: black;
     opacity: 70%;
-    color:white ;
+    color: white;
     text-align: center;
     font-size: x-large;
     padding: 5px
 }
-.container{
+
+.container {
     max-width: 100%;
     width: 600px;
     text-align: center;
@@ -34,14 +33,14 @@ body {
     background-color: white;
     display: block;
     height: 30px;
-    max-width: 80%;
+    max-width: 60%;
     width: 500px;
     padding: 2rem;
     margin: 1rem;
     border: 2px solid black;
     border-radius: 1.5rem;
     font-size: 1rem;
-   
+
 }
 
 
@@ -66,37 +65,35 @@ body {
 }
 
 .ferb .ferb-image {
-  
-  width: 350px;
+
+    width: 350px;
     display: block;
     margin: auto;
     border-radius: 1.5rem;
-    
+
 
 }
+
 .footer {
-   
+
     background-color:
         black;
-        opacity: 80%;
+    opacity: 80%;
     padding: 1rem;
     margin-top: 2rem;
     text-align: center;
-   
-    
-
 }
 
 .footer .footer-about {
     font-weight: 900;
     font-size: x-large;
     margin-bottom: 1rem;
-    color:white
+    color: white
 }
 
 .footer p {
     text-align: center;
     max-width: 600px;
     margin: auto;
-    color:white
+    color: white
 }
