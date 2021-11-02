@@ -11,6 +11,13 @@ body {
     --primary-color: #e8f0ea;
 }
 
+#github-link{
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
 .navigation {
     background-color: black;
     opacity: 70%;
